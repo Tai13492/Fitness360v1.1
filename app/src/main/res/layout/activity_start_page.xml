@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    tools:context="com.company.fitness360.StartPage">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <ImageView
+        android:id="@+id/fitnesslogo1"
+        android:layout_width="223dp"
+        android:layout_height="192dp"
+        android:layout_marginTop="69dp"
+        app:srcCompat="@drawable/fitness_logo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/cameraButton"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="130dp"
+        android:layout_marginStart="29dp"
+        android:src="@drawable/ic_camera_40dp"
+        app:cb_color="#f98c04"
+        app:cb_pressedRingWidth="25dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/storageButton"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="130dp"
+        android:layout_marginStart="140dp"
+        android:src="@drawable/ic_storage_black_24dp"
+        app:cb_color="#00cd00"
+        app:cb_pressedRingWidth="25dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/profileButton"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="130dp"
+        android:layout_marginStart="251dp"
+        android:src="@drawable/ic_progress_40dp"
+        app:cb_color="#c548fd"
+        app:cb_pressedRingWidth="25dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/mapButton"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="33dp"
+        android:layout_marginStart="29dp"
+        android:src="@drawable/ic_location_on_black_24dp"
+        app:cb_color="#6cecce"
+        app:cb_pressedRingWidth="25dp" />
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/tdeeCalcButton"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="33dp"
+        android:layout_marginStart="140dp"
+        android:src="@drawable/ic_health_black_40dp"
+        app:cb_color="#FF3232"
+        app:cb_pressedRingWidth="25dp"/>
+
+    <at.markushi.ui.CircleButton
+        android:id="@+id/forecastButton"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="33dp"
+        android:layout_marginStart="251dp"
+        android:src="@drawable/ic_timeline_black_40dp"
+        app:cb_color="#3232FF"
+        app:cb_pressedRingWidth="25dp" />
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Fitness360</string>
+    <string name="weather"> Weather </string>
+    <string name="temperature"> Temperature </string>
+    <string name="countrycode"> Country code</string>
+    <string name="city"> City </string>
+    <string name="loading"> loading... </string>
+    <string name="title_activity_google_maps">Map</string>
+    <string name="title_activity_start_page">StartPage</string>
+    <string name="tell">Little note about yourself now.</string>
+    <string name="todo">TODO</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="intro_text">Swipe edge to exit the map.</string>
+    <string name="com.twitter.sdk.android.CONSUMER_KEY">V7WJ1vepDL6TQQPuu7Dgzj8sg</string>
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET">AplHEoRL8jasajsCfX1IeR0prWtKiCM2F6pijDJ8f6XRFnNHcy</string>
+    <string name="facebook_app_id">500433807006891</string>
+    <string name="fb_login_protocol_scheme">fb500433807006891</string>
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+</resources>
